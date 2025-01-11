@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    background-image: url("C:\Users\TUSHAR\OneDrive - Alliance University\Documents\MangoDB Project\musicplayer\static\music-website-tempalte.jpg");
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 1rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#music-player {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+header nav ul li {
+    margin-right: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+}
+
+#music-player button {
+    background-color: #333;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#music-player {
+    background-color: #ddd;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+}
+
+header nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+#music-player button {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+#music-player button:last-child {
+    margin-right: 0;
+}
+
+#music-player p {
+    margin: 1rem 0;
+    text-align: center;
+}
